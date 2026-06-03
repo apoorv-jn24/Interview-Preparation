@@ -1,4 +1,4 @@
-# Core Knowledge
+# Intervew Preparation
 
 A structured collection of study notes, revision guides, examples, and cheat sheets across multiple technical subjects.
 
