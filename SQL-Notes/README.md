@@ -1,9 +1,22 @@
 # SQL Notes
 
-A GitHub-friendly SQL study guide organized for interviews, placements, and LeetCode practice.
+A GitHub-ready SQL study guide for interviews, placements, and LeetCode-style database practice.
+
+This repository is organized topic-by-topic so you can learn SQL in order, revise quickly before interviews, or jump directly to a concept while solving problems.
+
+## What This Repository Covers
+
+- SQL fundamentals such as `SELECT`, `WHERE`, `ORDER BY`, and `DISTINCT`
+- Common operators including `LIKE`, `BETWEEN`, `IN`, `IS NULL`, and Boolean logic
+- Aggregate, string, and date functions
+- Intermediate and advanced SQL topics such as joins, subqueries, CTEs, and window functions
+- Database objects such as tables, constraints, indexes, and views
+- Data manipulation commands including `INSERT`, `UPDATE`, `DELETE`, and transactions
+- Interview-focused and LeetCode-focused cheat sheets
 
 ## Table of Contents
 
+- [What This Repository Covers](#what-this-repository-covers)
 - [Fundamentals](#fundamentals)
 - [Operators](#operators)
 - [Functions](#functions)
@@ -11,7 +24,11 @@ A GitHub-friendly SQL study guide organized for interviews, placements, and Leet
 - [Database Objects](#database-objects)
 - [Data Manipulation](#data-manipulation)
 - [Cheat Sheets](#cheat-sheets)
+- [Repository Structure](#repository-structure)
 - [Recommended Study Path](#recommended-study-path)
+- [How to Use These Notes](#how-to-use-these-notes)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Fundamentals
 
@@ -62,6 +79,20 @@ A GitHub-friendly SQL study guide organized for interviews, placements, and Leet
 - [LeetCode SQL Cheat Sheet](CheatSheets/LeetCode_SQL_CheatSheet.md)
 - [Interview SQL Revision](CheatSheets/Interview_SQL_Revision.md)
 
+## Repository Structure
+
+```text
+SQL-Notes/
++-- Advanced/
++-- CheatSheets/
++-- Database_Objects/
++-- Data_Manipulation/
++-- Functions/
++-- Fundamentals/
++-- Operators/
+`-- README.md
+```
+
 ## Recommended Study Path
 
 1. Start with SQL Introduction, SELECT, WHERE, ORDER BY, and DISTINCT.
@@ -71,8 +102,23 @@ A GitHub-friendly SQL study guide organized for interviews, placements, and Leet
 5. Review database objects and DML safety.
 6. Finish with the LeetCode and interview cheat sheets.
 
+## How to Use These Notes
+
+- Follow the recommended study path if you are learning SQL from scratch.
+- Use the topic files as quick references while solving SQL problems.
+- Revise the cheat sheets before interviews, placement tests, and coding rounds.
+- Practice each concept by writing queries on sample tables or LeetCode database problems.
+
 ## Notes
 
 - Code examples from the original SQL notes are preserved in the topic files or cheat sheets.
 - Repeated explanations were consolidated so each concept has one primary home.
 - Each topic file includes local navigation, examples, interview tips, and LeetCode patterns.
+
+## Contributing
+
+Suggestions, corrections, and improvements are welcome. If you find an error or want to add a useful SQL pattern, open an issue or submit a pull request.
+
+## License
+
+This repository is intended for learning and revision. Add a license file if you want to define reuse permissions formally.
